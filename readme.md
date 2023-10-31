@@ -21,22 +21,19 @@ This is a simple web application that allows users to interact with OpenAI's GPT
 
 1. **Clone the Repository**
 
-```bash
-Copy code
-git clone [repository-url]
+```
+git clone https://github.com/WeslenLakins/openai-web-app.git
 ```
 
 2. **Navigate to the Project Directory**
 
-```bash
-Copy code
-cd openai_app_1
+```
+cd openai-web-app
 ```
 
 3. **Install the Dependencies**
 
-```bash
-Copy code
+```
 npm install
 ```
 
@@ -44,14 +41,17 @@ npm install
 
 Create a .env file in the root directory and add your OpenAI API key:
 
-```makefile
-Copy code
+```
 OPENAI_API_KEY=your_openai_api_key
 ```
 
 ### Running the Application
 
 1. **Start the Server**
+
+```
+npm run dev
+```
 
 2. **Access the Application**
    Open your web browser and navigate to http://localhost:3000.
