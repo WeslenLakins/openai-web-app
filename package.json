@@ -1,0 +1,16 @@
+{
+  "name": "openai_app_1",
+  "version": "1.0.0",
+  "description": "'My first web application implementing OpenAI API.'",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node script.js"
+  },
+  "author": "Weslen T. Lakins",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "openai": "^4.14.0"
+  }
+}
